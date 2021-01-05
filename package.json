@@ -1,6 +1,6 @@
 {
   "name": "@magic-libraries/slugify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
   "description": "@magic-libraries/slugify. makes strings url safe. opinionated.",
