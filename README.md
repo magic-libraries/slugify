@@ -2,7 +2,7 @@
 
 [@magic](https://magic.github.io/core)-client library.
 
-@magic-libraries/slugift turns strings into url safe strings. opinionated.
+@magic-libraries/slugify turns strings into url safe strings. opinionated.
 
 [html-docs](https://magic-libraries.github.io/slugify)
 
