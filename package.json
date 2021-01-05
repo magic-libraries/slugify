@@ -1,0 +1,60 @@
+{
+  "name": "@magic-libraries/slugify",
+  "version": "0.0.0",
+  "author": "Wizards & Witches",
+  "license": "AGPL-3.0",
+  "description": "@magic-libraries/slugify. makes strings url safe. opinionated.",
+  "homepage": "https://magic-libraries.github.io/slugify/",
+  "engines": {
+    "node": ">=14.2.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docsrc docs config.js",
+    "build": "NODE_ENV=production magic build",
+    "devbuild": "magic build --watch src",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-libraries/slugify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-libraries/slugify/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/git-badges": "0.0.10",
+    "@magic-modules/light-switch": "0.0.9",
+    "@magic-modules/no-spy": "0.0.5",
+    "@magic-modules/pre": "0.0.9",
+    "@magic-themes/docs": "0.0.11",
+    "@magic/core": "0.0.97",
+    "@magic/format": "0.0.20",
+    "@magic/test": "0.1.58"
+  },
+  "keywords": [
+    "magic",
+    "client",
+    "browser",
+    "magic-libraries",
+    "slugify",
+    "url",
+    "hyperapp"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
