@@ -6,7 +6,7 @@
   "description": "@magic-libraries/slugify. makes strings url safe. opinionated.",
   "homepage": "https://magic-libraries.github.io/slugify/",
   "engines": {
-    "node": ">=14.2.0"
+    "node": ">=14.15.4"
   },
   "engineStrict": true,
   "scripts": {
