@@ -1,10 +1,10 @@
 # @magic-libraries/slugify
 
-[@magic](https://magic.github.io/core)-client library.
+[@magic](https://magic.github.io/core/)-client library.
 
 @magic-libraries/slugify turns strings into url safe strings. opinionated.
 
-[html-docs](https://magic-libraries.github.io/slugify)
+[html-docs](https://magic-libraries.github.io/slugify/)
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]

@@ -1,6 +1,6 @@
 # ${title}
 
-[@magic](https://magic.github.io/core)-client library.
+[@magic](https://magic.github.io/core/)-client library.
 
 ${description}
 
