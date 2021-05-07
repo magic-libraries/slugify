@@ -10,7 +10,6 @@
 [![Linux Build Status][travis-image]][travis-url]
 [![Windows Build Status][appveyor-image]][appveyor-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
-[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
 [npm-image]: https://img.shields.io/npm/v/@magic-libraries/slugify.svg
@@ -21,8 +20,6 @@
 [appveyor-url]: https://ci.appveyor.com/project/magiclibraries/slugify/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-libraries/slugify/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-libraries/slugify
-[greenkeeper-image]: https://badges.greenkeeper.io/magic-libraries/slugify.svg
-[greenkeeper-url]: https://badges.greenkeeper.io/magic-libraries/slugify.svg
 [snyk-image]: https://snyk.io/test/github/magic-libraries/slugify/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-libraries/slugify
 
