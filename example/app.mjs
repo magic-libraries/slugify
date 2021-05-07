@@ -1,8 +1,8 @@
 export const state = {
   title: '@magic-libraries/slugify',
-  description: '@magic-libraries/slugift turns strings into url safe strings. opinionated.',
+  description: '@magic-libraries/slugify turns strings into url safe strings. opinionated.',
 
-  logotext: '@magic-libraries/uri',
+  logotext: '@magic-libraries/slugify',
   menu: [
     { to: '/#installation', text: 'installation' },
     { to: '/#usage-slugify', text: 'slugify without dash' },
