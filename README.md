@@ -67,5 +67,8 @@ first release
 ##### 0.0.2
 bump required node version to 14.15.4
 
-##### 0.0.3 - unreleased
+##### 0.0.3
+update dependencies
+
+##### 0.0.4 - unreleased
 ...
