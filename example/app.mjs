@@ -12,5 +12,5 @@ export const state = {
 }
 
 export const lib = {
-  uri: 'src/index.mjs',
+  slugify: 'src/index.mjs',
 }
