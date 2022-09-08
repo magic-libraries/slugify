@@ -49,7 +49,7 @@ export const slugify = (str, dash = false) => {
   for (let i = 0; i < strArray.length; i++) {
     const char = strArray[i]
 
-    const match = entries.find(([_,val]) => val.includes(char))
+    const match = entries.find(([_, val]) => val.includes(char))
 
     if (match) {
       const [k] = match
