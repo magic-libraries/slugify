@@ -49,7 +49,7 @@ export const slugify = (str, dash = false) => {
   for (let i = 0; i < strArray.length; i++) {
     const char = strArray[i]
 
-    const match = entries.find(([_, val]) => val.includes(char))
+    const match = entries.find(([_,val]) => val.includes(char))
 
     if (match) {
       const [k] = match
@@ -57,13 +57,19 @@ export const slugify = (str, dash = false) => {
     }
   }
 
-  // Make sure we remove all invalid chars
+
+  const replacer = dash ? '-' : ''
+
+  /*
+   * Make sure we remove all unwanted chars
+   * and replace them with a dash or nothing
+   */
   const final = strArray
     .join('')
     .toLowerCase()
-    .replace(/[^a-z0-9 -]/g, '')
-    .replace(/\s+/g, dash ? '-' : '')
-    .replace(/-+/g, dash ? '-' : '')
+    .replace(/[^a-z0-9 -]/g, replacer)
+    .replace(/\s+/g, replacer)
+    .replace(/-+/g, replacer)
 
   return final
 }
