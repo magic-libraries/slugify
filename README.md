@@ -23,7 +23,6 @@
 [snyk-image]: https://snyk.io/test/github/magic-libraries/slugify/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-libraries/slugify
 
-
 ### installation
 
 `npm install --save-exact @magic-libraries/slugify`
@@ -58,21 +57,25 @@ the source for this page is in the
 and gets built and published to github using
 [@magic/core](https://github.com/magic/core)
 
-
 #### changelog
 
 ##### 0.0.1
+
 first release
 
 ##### 0.0.2
+
 bump required node version to 14.15.4
 
 ##### 0.0.3
+
 update dependencies
 
 ##### 0.0.4
-* use an object instead of strings to replace chars, allowing multi-character replacements.
-* update dependencies
+
+- use an object instead of strings to replace chars, allowing multi-character replacements.
+- update dependencies
 
 ##### 0.0.5 - unreleased
+
 ...

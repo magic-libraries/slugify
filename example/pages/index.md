@@ -2,14 +2,9 @@
 
 [@magic](https://magic.github.io/core/)-client library.
 
-${description}
-
-<GitBadges>@magic-libraries/slugify</GitBadges>
-
 ### installation
 
 `npm install --save-exact @magic-libraries/slugify`
-
 
 ### usage
 
@@ -23,6 +18,15 @@ lib.slugify('UpperCase @#$ test')
 // 'uppercasetest'
 ```
 
+### usage without magic:
+
+```
+import { slugify } from '@magic-libraries/slugify'
+
+slugify('UpperCase @#$ test')
+
+```
+
 #### #usage- slugify add dash
 
 replace whitespaces and invalid characters with a single dash by passing true as second argument to slugify
@@ -33,7 +37,6 @@ lib.slugify('UpperCase @#$ test', true)
 // 'uppercase-test'
 
 ```
-
 
 ### source
 
