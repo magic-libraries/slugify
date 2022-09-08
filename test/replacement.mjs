@@ -1,5 +1,5 @@
 import { is } from '@magic/test'
-import defaultSlugify, { slugify } from '../src/index.mjs'
+import { slugify } from '../src/index.mjs'
 
 const fromString =
   'ÁÄÂÀÃÅČÇĆĎÉĚËÈÊẼĔȆÍÌÎÏŇÑÓÖÒÔÕØŘŔŠŤÚŮÜÙÛÝŸŽáäâàãåčçćďéěëèêẽĕȇíìîïňñóöòôõøðřŕšťúůüùûýÿžþÞĐđa·/_,:;'
@@ -28,11 +28,16 @@ const fromToArray = fromArray.map((from, i) => {
   return { from, to }
 })
 
+const specialKeys = Object.keys(specialChars).join('')
+const specialValues = Object.values(specialChars).join('')
+
 export default [
   {
-    fn: slugify(Object.keys(specialChars).join('')),
-    expect: is.deep.equal(Object.values(specialChars).join('')),
-    info: 'german Umlauts get replaced correctly',
+    fn: slugify(specialKeys),
+    expect: is.deep.equal(specialValues),
+    info: `german Umlauts get replaced correctly keys: ${specialKeys} values: ${specialValues}, result: ${slugify(
+      specialKeys,
+    )}`,
   },
 
   ...fromToArray.map(({ from, to }) => ({
